@@ -1,28 +1,5 @@
-== README
+Rails 第二课。 入门。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+增加了 RESTful, root, match 几个例子。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+对应的 PPT： http://siwei.me/system/resources/W1siZiIsIjIwMTYvMDkvMjQvMjJfMTJfMTRfMjQ5X3JhaWxzX3BwdF8yXy5wZGYiXV0/rails-ppt-2-%E8%B7%AF%E7%94%B1.pdf

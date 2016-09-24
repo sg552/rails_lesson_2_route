@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  match '/auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
 
   # 根路径
   root :to=>  'books#welcome'
@@ -20,4 +19,7 @@ Rails.application.routes.draw do
       end
     end
   end
+
+  # 直接指定一个url ， 由哪个controller#action 来处理。
+  match '/welcome_you', to: 'books#welcome', via: [:get, :post]
 end
