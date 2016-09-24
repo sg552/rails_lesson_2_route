@@ -6,4 +6,8 @@ class BooksController < ApplicationController
 
   def list
   end
+
+  # 专门为根目录准备
+  def welcome
+  end
 end
